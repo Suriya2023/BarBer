@@ -61,6 +61,18 @@
     line-height: 4.5vmin;
 }
 
+.navbar {
+    color: white;
+}
+
+.navbar-brand img {
+    width: 15vmin;
+}
+
+.largeNav {
+    display: none;
+}
+
 @media screen and (max-width:990px) {
     #Navone {
         display: none;
@@ -69,6 +81,11 @@
     .small {
         display: none;
     }
+
+    .largeNav {
+        display: block;
+    }
+
 }
 
 /*  */
