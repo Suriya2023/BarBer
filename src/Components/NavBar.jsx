@@ -162,19 +162,22 @@ function NavBar() {
                 </button>
                 <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                   <div className="offcanvas-header">
-                    <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                    <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    {/* <img src={logo} alt="Logo"/> */}
+                    <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img id='uuu' src="https://th.bing.com/th/id/OIP.FqvZ6Kyu0LWTkLYkWJ8t3gHaHc?rs=1&pid=ImgDetMain" alt="" /></button>
                   </div>
+                  <hr className='hrline' />
+
                   <div className="offcanvas-body">
+                    <img src={logo} alt="Logo" id='imgcenter' />
                     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                      <li className="nav-item">
+                      <li className="nav-item" id='myhome'>
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" href="#">Link</a>
                       </li>
-                      <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <li className="nav-item ">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
                           Dropdown
                         </a>
                         <ul className="dropdown-menu">
@@ -208,7 +211,7 @@ function NavBar() {
                 Haircurt & Beard</h2>
               {/* <br /> */}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia magnam corrupti optio cupiditate distinctio.
-<br /><br />
+              <br /><br />
               <button>Read More</button>
             </div>
           </section>

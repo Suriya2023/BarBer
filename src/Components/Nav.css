@@ -3,15 +3,17 @@
     box-sizing: border-box;
     padding: 0px;
 }
-:root{
+
+:root {
     --primary-color: #333;
-    --playWrite:"Playwrite SK", cursive;
-    --Satisfy:"Satisfy", cursive;
-    --Fjalla : "Fjalla One", sans-serif;
+    --playWrite: "Playwrite SK", cursive;
+    --Satisfy: "Satisfy", cursive;
+    --Fjalla: "Fjalla One", sans-serif;
     --a: rgb(128, 216, 200);
-    --b:black;
-    --w:white;
+    --b: black;
+    --w: white;
 }
+
 #header {
     max-height: 100%;
     background-size: cover;
@@ -23,6 +25,84 @@
     background-repeat: no-repeat;
     width: 100%;
 
+}
+
+.hrline {
+    height: 1vmin;
+    color: var(--w);
+}
+
+.navbar-toggler {
+    text-decoration: none;
+    background: white;
+
+}
+
+#uuu {
+    border-radius: 50%;
+    width: 4vmin;
+    margin-right: 8vmin;
+    border: 1px solid;
+    color: antiquewhite;
+}
+#imgcenter{
+    vertical-align: middle;
+    margin: 0 AUTO;
+    display: flex;
+
+}
+@media screen and (max-width:450px) 
+{
+#uuu {
+    width: 8vmin;
+}
+    
+}
+
+.offcanvas {
+    background-size: cover;
+    background-image: url(./Image/Background.png);
+}
+
+.offcanvas-header i {
+    color: var(--w);
+    background-origin: padding-box;
+    /* padding: 1vmin; */
+    /* border-radius: 50%; */
+    font-size: 4vmin;
+    /* border: 1px solid; */
+}
+.btn-close{
+    float: inline-end;
+}
+.offcanvas-header {
+    display: block;
+    align-items: center;
+    padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    align-items: center;
+    vertical-align: middle;
+    /* margin: 0 auto; */
+}
+
+.offcanvas-header img {
+    width: 15vmin;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+#myhome a {
+    color: var(--w);
+}
+
+#myhome a:hover {
+    transition: all 0.4s ease-in;
+
+    color: var(--a);
+}
+
+#myhome:active {
+    color: var(--w);
 }
 
 .txtid {
@@ -80,50 +160,55 @@
 .largeNav {
     display: none;
 }
-.MainContent{
+
+.MainContent {
     /* line-height:75vmin; */
     width: 50%;
     padding: 0vmin 5vmin;
     /* height: 70vmin; */
     /* border: 1px solid; */
 }
-.means{
+
+.means {
     vertical-align: middle;
 }
 
-.means h1{
- 
+.means h1 {
+
     /* font-family:var(--playWrite), cursive; */
     display: inline-block;
 
     font-family: var(--Satisfy);
     font-style: italic;
-    color:var(--a);
+    color: var(--a);
 }
 
-.means h2{
+.means h2 {
     font-family: var(--Fjalla);
     font-size: 8vmin;
 }
-.means > button{
+
+.means>button {
     padding: 1vmin 5vmin;
     color: white;
-    background: 
-    transparent;
+    background:
+        transparent;
     font-size: 3vmin;
-    border-radius:26px 1px 23px 1px;
+    border-radius: 26px 1px 23px 1px;
 
-    border: 2px solid ;
+    border: 2px solid;
 }
-.means > button:hover{
+
+.means>button:hover {
     color: var(--b);
-   border-radius: 1px 26px 1px 23px;
+    border-radius: 1px 26px 1px 23px;
     border: var(--b);
-    transition:all 0.4s ease-in;
-background-color: var(--a);
+    transition: all 0.4s ease-in;
+    background-color: var(--a);
 }
-.nav-link:hover{
-    transition:all 0.4s ease-in;
+
+.nav-link:hover {
+    transition: all 0.4s ease-in;
 
     color: var(--a);
 }
