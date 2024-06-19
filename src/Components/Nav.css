@@ -5,17 +5,12 @@
 }
 
 #header {
-    /* background-image:/ url(/); */
     max-height: 100%;
-    /* min-height: 100%; */
     background-size: cover;
-    background-image: url(/src/Components/Image/Background.png);
-    /* background-color: black; */
+    background-image: url(./Image/Background.png);
     height: 90vmin;
-    /* height: 600px; */
     color: white;
     position: relative;
-    /* margin-right: 15px; */
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -32,10 +27,22 @@
     font-size: 1.7vmin;
 }
 
+.nav-link {
+    color: aliceblue;
+}
+
 #iconUl {
     align-items: center;
     display: flex;
 
+}
+
+.myDis img {
+    width: 15vmin;
+}
+
+.iconUli>i {
+    font-size: 2.5vmin;
 }
 
 #iconUl>span {
@@ -59,6 +66,9 @@
         display: none;
     }
 
+    .small {
+        display: none;
+    }
 }
 
 /*  */
@@ -71,6 +81,13 @@
 
         background-position: center;
         background-size: cover;
+    }
+
+}
+
+@media screen and (min-widht:1450px) and (max-widht:2560px) {
+    #lgf {
+        font-size: 6vmin;
     }
 
 }
