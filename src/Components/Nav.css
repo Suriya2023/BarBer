@@ -3,7 +3,12 @@
     box-sizing: border-box;
     padding: 0px;
 }
-
+:root{
+    --primary-color: #333;
+    --playWrite:"Playwrite SK", cursive;
+    --Satisfy:"Satisfy", cursive;
+    --Fjalla : "Fjalla One", sans-serif;
+}
 #header {
     max-height: 100%;
     background-size: cover;
@@ -72,6 +77,41 @@
 .largeNav {
     display: none;
 }
+.MainContent{
+    /* line-height:75vmin; */
+    width: 50%;
+    padding: 0vmin 5vmin;
+    /* height: 70vmin; */
+    border: 1px solid;
+}
+.means{
+    vertical-align: middle;
+}
+
+.means h1{
+ 
+    /* font-family:var(--playWrite), cursive; */
+    display: inline-block;
+
+    font-family: var(--Satisfy);
+    font-style: italic;
+    color: rgb(128, 216, 200);
+}
+
+.means h2{
+    font-family: var(--Fjalla);
+    font-size: 8vmin;
+}
+.means > button{
+    padding: 1vmin 5vmin;
+    color: white;
+    background: 
+    transparent;
+    font-size: 3vmin;
+    border: 2px solid ;
+}
+
+
 
 @media screen and (max-width:990px) {
     #Navone {

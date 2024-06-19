@@ -198,6 +198,21 @@ function NavBar() {
           </header>
           {/* End */}
 
+
+
+
+          <section className="MainContent">
+            <div className="means">
+              <h1>Men'  Styling</h1>
+              <h2>Collection <br />
+                Haircurt & Beard</h2>
+              {/* <br /> */}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia magnam corrupti optio cupiditate distinctio.
+<br /><br />
+              <button>Read More</button>
+            </div>
+          </section>
+
         </div>
 
 
