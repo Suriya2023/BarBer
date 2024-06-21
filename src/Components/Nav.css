@@ -45,18 +45,36 @@
     border: 1px solid;
     color: antiquewhite;
 }
-#imgcenter{
+
+#imgcenter {
     vertical-align: middle;
     margin: 0 AUTO;
     display: flex;
 
 }
-@media screen and (max-width:450px) 
-{
-#uuu {
-    width: 8vmin;
+
+@media screen and (max-width:321px) {
+
+    #thisDivelorem {
+        width: 91vmin;
+    }
 }
-    
+
+
+@media screen and (max-width:450px) {
+    .means h1 {
+        font-size: 10vmin;
+    }
+
+    #uuu {
+        width: 8vmin;
+    }
+
+    #bottom {
+        /* float: left; */
+
+        margin: 11vmin 2vmin;
+    }
 }
 
 .offcanvas {
@@ -72,9 +90,11 @@
     font-size: 4vmin;
     /* border: 1px solid; */
 }
-.btn-close{
+
+.btn-close {
     float: inline-end;
 }
+
 .offcanvas-header {
     display: block;
     align-items: center;
@@ -91,9 +111,9 @@
     text-align: center;
 }
 
-#myhome a {
+/* #myhome a {
     color: var(--w);
-}
+} */
 
 #myhome a:hover {
     transition: all 0.4s ease-in;
@@ -163,13 +183,17 @@
 
 .MainContent {
     /* line-height:75vmin; */
-    width: 50%;
+    width: 100%;
     padding: 0vmin 5vmin;
     /* height: 70vmin; */
+    float: left;
     /* border: 1px solid; */
 }
 
 .means {
+    float: left;
+    margin-top: 15vmin;
+    text-align: justify;
     vertical-align: middle;
 }
 
@@ -194,7 +218,7 @@
     background:
         transparent;
     font-size: 3vmin;
-    border-radius: 26px 1px 23px 1px;
+    border-radius: 1px 1px 17px 1px;
 
     border: 2px solid;
 }
@@ -213,8 +237,15 @@
     color: var(--a);
 }
 
-
+/* #lgf {
+    font-size: 6vmin;
+} */
 @media screen and (max-width:990px) {
+
+    /* .MainContent {
+        padding: 0px 5vmin;
+    } */
+
     #Navone {
         display: none;
     }
@@ -229,13 +260,14 @@
 
 }
 
+
 /*  */
 @media screen and (max-width:666px) {
     #header {
         height: 600px;
         /* margin-left: -15vmin; */
         width: 100%;
-        background-image: url(/src/Image/Background.png);
+        background-image: url(./Image/Background.png);
 
         background-position: center;
         background-size: cover;
@@ -243,9 +275,15 @@
 
 }
 
-@media screen and (min-widht:1450px) and (max-widht:2560px) {
-    #lgf {
-        font-size: 6vmin;
+/* @media screen and ((min-widht:1450px) and (max-widht:2560px)){
+    #Navone {
+        display: none;
     }
+} */
 
+@media screen and (min-width:1450px) {
+
+    #lgf {
+        font-size: 2vmin;
+    }
 }

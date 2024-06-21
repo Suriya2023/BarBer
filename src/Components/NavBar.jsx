@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import logo from './Image/logo (1).png'
+// import bgimage from './Image/background.png'
 function NavBar() {
   return (
     <div>
@@ -171,29 +172,75 @@ function NavBar() {
                     <img src={logo} alt="Logo" id='imgcenter' />
                     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                       <li className="nav-item" id='myhome'>
-                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
+                          Home
+                        </a>
+                        <ul className="dropdown-menu"  >
+                        <li><a className="dropdown-item" href="#">About</a></li>
+                        <li><a className="dropdown-item" href="#">Blog</a></li>
+                        <li><a className="dropdown-item" href="#">Contact</a></li>
+                        <li><a className="dropdown-item" href="#">Help Center</a></li>
+                        <li><a className="dropdown-item" href="#">404 Error</a></li>
+                        <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
+                      </ul>
+
+                      </li>
+                      <li className="nav-item" id='myhome'>
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
+                          Pages
+                        </a>
+                        <ul className="dropdown-menu"  >
+                        <li><a className="dropdown-item" href="#">About</a></li>
+                        <li><a className="dropdown-item" href="#">Blog</a></li>
+                        <li><a className="dropdown-item" href="#">Contact</a></li>
+                        <li><a className="dropdown-item" href="#">Help Center</a></li>
+                        <li><a className="dropdown-item" href="#">404 Error</a></li>
+                        <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
+                      </ul>
+
+                      </li>
+                      <li className="nav-item" id='myhome'>
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
+                          Blog
+                        </a>
+                        <ul className="dropdown-menu"  >
+                        <li><a className="dropdown-item" href="#">About</a></li>
+                        <li><a className="dropdown-item" href="#">Blog</a></li>
+                        <li><a className="dropdown-item" href="#">Contact</a></li>
+                        <li><a className="dropdown-item" href="#">Help Center</a></li>
+                        <li><a className="dropdown-item" href="#">404 Error</a></li>
+                        <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
+                      </ul>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
+                          Services
+                        </a>
+                        <ul className="dropdown-menu"  >
+                        <li><a className="dropdown-item" href="#">About</a></li>
+                        <li><a className="dropdown-item" href="#">Blog</a></li>
+                        <li><a className="dropdown-item" href="#">Contact</a></li>
+                        <li><a className="dropdown-item" href="#">Help Center</a></li>
+                        <li><a className="dropdown-item" href="#">404 Error</a></li>
+                        <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
+                      </ul>
+
                       </li>
                       <li className="nav-item ">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
-                          Dropdown
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                            <hr className="dropdown-divider" />
-                          </li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                      <li className="nav-item">
+                      <a id='lgf' className="nav-link " aria-disabled="true">Portfolio</a>
+                    </li>
+
+                    <li className="nav-item">
+                      <a id='lgf' className="nav-link " aria-disabled="true">Contact</a>
+                    </li>
+                       
                       </li>
                     </ul>
-                    <form className="d-flex mt-3" role="search">
+                    {/* <form className="d-flex mt-3" role="search">
                       <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                       <button className="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    </form> */}
                   </div>
                 </div>
               </div>
@@ -205,14 +252,18 @@ function NavBar() {
 
 
           <section className="MainContent">
-            <div className="means">
-              <h1>Men'  Styling</h1>
-              <h2>Collection <br />
-                Haircurt & Beard</h2>
-              {/* <br /> */}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia magnam corrupti optio cupiditate distinctio.
-              <br /><br />
-              <button>Read More</button>
+            <div id='bottom'>
+              <div className="means">
+                <h1>Men'  Styling</h1>
+                <h2>Collection <br />
+                  Haircurt & Beard</h2>
+                {/* <br /> */}
+               <div id='thisDivelorem'>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia magnam <br /> corrupti optio cupiditate distinctio.
+               <br /><br />
+               </div>
+                <button>Read More</button>
+              </div>
             </div>
           </section>
 
