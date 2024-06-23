@@ -20,6 +20,10 @@ function Aboutimage() {
         </div>
 
       </div>
+      {/* second */}
+
+     
+
       
     </div>
   )
