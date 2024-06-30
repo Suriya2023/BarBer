@@ -1,18 +1,4 @@
-            * {
-                margin: 0px;
-                box-sizing: border-box;
-                padding: 0px;
-            }
 
-            :root {
-                --primary-color: #333;
-                --playWrite: "Playwrite SK", cursive;
-                --Satisfy: "Satisfy", cursive;
-                --Fjalla: "Fjalla One", sans-serif;
-                --a: rgb(128, 216, 200);
-                --b: black;
-                --w: white;
-            }
 
             .maincatting {
                 color: var(--w);
@@ -30,9 +16,9 @@
 
             .section {
                 padding: 1vmin 15vmin;
-                background: black;
+                background: var(--b);
                 height: auto;
-                border: 2px solid;
+                /* border: 2px solid; */
             }
 
             .hoverCd {
@@ -41,12 +27,7 @@
                 gap: 3vmin;
                 flex-wrap: nowrap;
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
-            }
-            @media screen and (max-width:600px) {
-                
-            .section {
-                padding: 0vmin 0vmin;}
+                grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
             }
 
             @media screen and (max-width:600px) {
@@ -69,11 +50,11 @@
                 border-radius: 5px;
                 /* border: 1px solid; */
                 background: var(--b);
-                height: 400px;
+                height: auto;
             }
 
             /* card animation */
-            .card {
+            #card {
                 overflow: hidden;
                 width: auto;
                 height: 100%;
@@ -87,7 +68,7 @@
                 z-index: 1;
             }
 
-            .card:hover {
+            #card:hover {
                 background: var(--b);
             }
 
@@ -101,7 +82,7 @@
             }
 
             /* second */
-            .card2 {
+            #card2 {
                 overflow: hidden;
                 width: auto;
                 height: 100%;
@@ -116,11 +97,11 @@
                 z-index: 1;
             }
 
-            .card2:hover {
+            #card2:hover {
                 background: rgba(1, 1, 1, .9);
             }
 
-            .card2.hover .hearCurt {
+            #card2.hover .hearCurt {
                 transform: rotateX(0deg);
             }
 
@@ -130,7 +111,7 @@
             }
 
             /* third */
-            .card3 {
+            #card3 {
                 overflow: hidden;
                 width: auto;
                 /* background: rgba(0, 0, 0, 0.2); */
@@ -146,11 +127,11 @@
                 z-index: 1;
             }
 
-            .card3:hover {
+            #card3:hover {
                 background: var(--b);
             }
 
-            .card3.hover .hearCurt {
+            #card3.hover .hearCurt {
                 transform: rotateX(0deg);
             }
 
@@ -176,15 +157,45 @@
                 font-size: 2vmin;
             }
 
+            @media screen and (max-width:600px) {
+                .hearCurt p {
 
-            #lol {
+                    font-size: 8vmin;
+
+                }
+
+                .section {
+                    padding: 0vmin 0vmin;
+                }
+
+                .card__content:hover p {
+                    font-size: 8vmin;
+                }
+
+                .hearCurt span {
+                    font-size: 4vmin;
+                    line-height: 7vmin;
+                }
+
+                .hearCurt {
+                    line-height: 7vmin;
+                }
+
+                .hearCurt>a {
+                    font-size: 6.5vmin;
+                }
+
+            }
+
+
+            .local {
                 margin-top: 5vmin;
                 font-size: 6vmin;
                 color: var(--w);
                 font-family: var(--Fjalla);
             }
 
-            .hearCurt a {
+            .thisancor {
                 font-size: 2.5vmin;
                 color: red;
                 text-decoration: none;

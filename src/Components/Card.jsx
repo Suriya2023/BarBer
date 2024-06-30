@@ -1,5 +1,6 @@
 import React from 'react'
 import './Card.css'
+
 function Card() {
     return (
         <div>
@@ -13,7 +14,7 @@ function Card() {
                 <br />
                 <div className="hoverCd">
                     <div className="cardcd">
-                        <div className="card">
+                        <div className="card" id='card'>
 
                             <div className="tools">
                                 <div className="circle">
@@ -30,16 +31,16 @@ function Card() {
                                 <div className="hearCurt">
                                     <p>FORMAL</p>
                                     <span>The pain itself is great, and the growth is great, but at the same time it happens that there is a lot of work and pain. for at least</span><br /><br />
-                                    <a href="/">Read More</a>
+                                    <a href="/" className='thisancor' >Read More</a>
                                 </div>
 
                             </div>
-                            <l id="lol">FORMAL</l>
+                            <div className="local">FORMAL</div>
                         </div>
                     </div>
                     <div className="cardcd">
 
-                        <div className="card2">
+                        <div className="card" id='card2'>
 
                             <div className="tools">
                                 <div className="circle">
@@ -56,16 +57,16 @@ function Card() {
                                 <div className="hearCurt">
                                     <p>CASUAL</p>
                                     <span>The pain itself is great, and the growth is great, but at the same time it happens that there is a lot of work and pain. for at least</span><br /><br />
-                                    <a href="/">Read More</a>
+                                    <a href="/" className='thisancor' >Read More</a>
                                 </div>
 
                             </div>
-                            <l id="lol">CASUAL</l>
+                            <div className="local">CASUAL</div>
                         </div>
                     </div>
                     <div className="cardcd">
 
-                        <div className="card3">
+                        <div className="card" id='card3'>
 
                             <div className="tools">
                                 <div className="circle">
@@ -82,11 +83,11 @@ function Card() {
                                 <div className="hearCurt">
                                     <p>SPORTS</p>
                                     <span>The pain itself is great, and the growth is great, but at the same time it happens that there is a lot of work and pain. for at least</span><br /><br />
-                                    <a href="/">Read More</a>
+                                    <a href="/" className='thisancor' >Read More</a>
                                 </div>
 
                             </div>
-                            <l id="lol">SPORTS</l>
+                            <div className="local">SPORTS</div>
                         </div>
                     </div>
                 </div>

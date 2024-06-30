@@ -1,18 +1,4 @@
-* {
-    margin: 0px;
-    box-sizing: border-box;
-    padding: 0px;
-}
 
-:root {
-    --primary-color: #333;
-    --playWrite: "Playwrite SK", cursive;
-    --Satisfy: "Satisfy", cursive;
-    --Fjalla: "Fjalla One", sans-serif;
-    --a: rgb(128, 216, 200);
-    --b: black;
-    --w: white;
-}
 
 .mainservicegride {
     display: flex;
@@ -52,17 +38,23 @@
 }
 
 .flex {
-    transition: 1s ease-in;
+
+    transition: background border 1s ease-in;
     overflow: hidden;
     display: flex;
     color: var(--w);
     height: 13vmin;
     width: 100%;
-    border: 1px solid;
 }
 
-.flex:hover .box {
-    border-right: 5px solid black;
+.flex:hover .boxes {
+    border-right: 1px solid black;
+}
+.flex:hover{
+    border: 5px solid var(--a);
+}
+.flex:hover .text{
+    margin-top: 12.3vmin;
 }
 
 .firstsec img {
@@ -107,7 +99,7 @@
 }
 
 .flex:hover {
-    border-left: 1px solid black;
+    /* border-left: 1px solid black; */
     color: var(--b);
 
     background-color: var(--a);

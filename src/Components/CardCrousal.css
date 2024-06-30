@@ -1,0 +1,23 @@
+.crouscard{
+    background-color: var(--b);
+    height: 600px;
+    padding: 4vmin;
+    position: relative;
+}
+
+
+.maincrous{
+    text-align: center;
+}
+.maincrous > h1{
+    font-size: 3.5vmin;
+    color: var(--a);
+    font-family: var(--Satisfy);
+}   
+.maincrous > h3{
+
+/* font-size:in; */
+color:var(--w);
+text-transform: uppercase;
+font-family: var(--Fjalla);
+}

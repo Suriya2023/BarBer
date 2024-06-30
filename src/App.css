@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+:root {
+    --primary-color: #333;
+    --playWrite: "Playwrite SK", cursive;
+    --Satisfy: "Satisfy", cursive;
+    --Fjalla: "Fjalla One", sans-serif;
+    --a: rgb(128, 216, 200);
+    /* --a: rgb(216, 159, 128); */
+
+    --b: rgb(30, 28, 28);
+    --w: white;
+}
+
