@@ -1,5 +1,5 @@
 import React from 'react'
-// import './CardCrousal.css'
+import './CardCrousal.css'
 
 export default function imgsid() {
     return (
@@ -13,25 +13,9 @@ export default function imgsid() {
 
 
 
-                            <div  className='mastercard'>
+                            <div className='mastercard'>
                                 <br />
-                                {/* <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                                        <div class="carousel-inner">
-
-
-                                            <div class="carousel-item  active ">
-                                                <img  id='qwe' src={two} class="d-block " alt="..." />
-                                            </div>
-                                            <div class="carousel-item ">
-                                                <img  id='qwe' src={tyr} class="d-block " alt="..." />
-                                            </div>
-
-                                            <div class="carousel-item ">
-                                                <img  id='qwe' src={one} class="d-block " alt="..." />
-                                            </div>
-                                        </div>
-                                    
-                                    </div> */}
+                               
 
 
                                 <div class="card">
@@ -89,7 +73,7 @@ export default function imgsid() {
                                         </div>
                                         <span class="logo-bottom-text"></span>
                                     </div>
-                                    <span class="bottom-text , trail">JOHN JACOBS</span>
+                                    <span class="bottom-text , trail">HARRY GARD</span>
                                 </div>
                             </div>
 
@@ -127,15 +111,15 @@ export default function imgsid() {
                                         </div>
                                         <span class="logo-bottom-text"></span>
                                     </div>
-                                    <span class="bottom-text , trail">JOHN JACOBS</span>
+                                    <span class="bottom-text , trail">PETER TAYLOR</span>
                                 </div>
                             </div>
 
-                           
+
 
                         </div>
 
-
+                       
                     </div>
                     <br /><br />
 

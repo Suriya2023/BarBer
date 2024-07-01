@@ -1,4 +1,3 @@
-
 #gdflex {
     /* overflow: hidden; */
     /* border: 1px solid white; */
@@ -25,16 +24,17 @@
     width: 100%;
     /* background: url(./Image/image\ 2.png); */
 }
+
 @media screen and (max-width:990px) {
-.glritem {
-    height: 40vmin;
-}
+    .glritem {
+        height: 40vmin;
+    }
 }
 
 #myimggrr1 {
     /* grid-row-start: 5;
     grid-row-end: 1; */
-    background-size: cover!important;
+    background-size: cover !important;
     /* background-position: center; */
     background-repeat: no-repeat !important;
     background: url(./Image/image\ 1.png);
@@ -44,7 +44,7 @@
     width: 100%;
     /* height: 68%; */
     /* height: 400px; */
-    background-size: cover!important;
+    background-size: cover !important;
     background-position: center;
     background-repeat: no-repeat !important;
     background: url(./Image/image\ 2.png);
@@ -55,7 +55,7 @@
 
     /* grid-row-start:2;
     grid-row-end: 2; */
-    background-size: cover!important;
+    background-size: cover !important;
     background-position: center;
     background-repeat: no-repeat !important;
     background: url(./Image/image\ 3.png);
@@ -65,7 +65,7 @@
     margin-top: -8vmin;
     /* grid-row-start:5;
     grid-row-end: 1; */
-    background-size: cover!important;
+    background-size: cover !important;
     /* background-position: center; */
     background-repeat: no-repeat !important;
     background: url(./Image/image\ 4.png);
@@ -76,7 +76,7 @@
     height: 88vmin;
     /* grid-column-start:2;
     grid-row-end: 1; */
-    background-size: cover!important;
+    background-size: cover !important;
     /* background-position: center; */
     background-repeat: no-repeat !important;
     background: url(./Image/image\ 5.png)
@@ -84,7 +84,7 @@
 
 #myimggrr6 {
     /* height: 50vmin; */
-    background-size: cover!important;
+    background-size: cover !important;
     background-position: center;
     background-repeat: no-repeat !important;
     background: url(./Image/image\ 6.png);
@@ -94,7 +94,7 @@
     margin-top: -40vmin;
     /* grid-row-start:5;
     grid-column-end: 3; */
-    background-size: cover!important;
+    background-size: cover !important;
     /* background-position: center; */
     background-repeat: no-repeat !important;
     background: url(./Image/image\ 7.png);
@@ -103,7 +103,7 @@
 #myimggrr8 {
     margin-top: -40vmin;
     border: 12px solid var(--b);
-    background-size: cover!important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
     background: url(./Image/image\ 8.png);
 }
@@ -154,7 +154,8 @@
         display: none;
     }
 }
-@media screen and (min-width:991px) and (max-width:1235px) { 
+
+@media screen and (min-width:991px) and (max-width:1235px) {
     .gridegallary {
         padding: 5vmin;
         grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
@@ -162,121 +163,129 @@
     }
 }
 
-@media screen and  (max-width:556px) {
+@media screen and (max-width:556px) {
     .gridegallary {
         padding: 1vmin;
     }
-    .glritem{
+
+    .glritem {
         height: 50vmin;
     }
 }
+
 /* @media screen and (max-width:557px) { */
 
-    /* .glritem {
+/* .glritem {
         height: 77vmin;
     } */
 
-    /* #myimggrr2 {
+/* #myimggrr2 {
         width: 100%; */
-        /* height: 45vmin;com */
-        /* background-position: center;
+/* height: 45vmin;com */
+/* background-position: center;
         background-repeat: no-repeat !important; */
 
-    /* } */
+/* } */
 
-    /* #myimggrr1 {
+/* #myimggrr1 {
         width: 100%; */
-        /* height: 44vmin; */
-        /* background-position: center;
+/* height: 44vmin; */
+/* background-position: center;
         background-repeat: no-repeat !important; */
 
-    /* } */
+/* } */
 
-    /* #myimggrr3 {
+/* #myimggrr3 {
         width: 100%; */
-        /* height: 44vmin; */
-        /* background-position: center;
+/* height: 44vmin; */
+/* background-position: center;
         background-repeat: no-repeat !important; */
 
-    /* } */
+/* } */
 
-    /* #myimggrr4 {
+/* #myimggrr4 {
         width: 100%; */
-        /* height: 44vmin; */
-        /* background-position: center;
+/* height: 44vmin; */
+/* background-position: center;
         background-repeat: no-repeat !important; */
 
-    /* } */
+/* } */
 
-    /* #myimggrr5 {
+/* #myimggrr5 {
         width: 100%; */
-        /* height: 44vmin; */
-        /* background-position: center;
+/* height: 44vmin; */
+/* background-position: center;
         background-repeat: no-repeat !important; */
 
-    /* } */
+/* } */
 
-    /* #myimggrr6 {
+/* #myimggrr6 {
         width: 100%; */
-        /* height: 44vmin; */
-        /* background-position: center;
+/* height: 44vmin; */
+/* background-position: center;
         background-repeat: no-repeat !important; */
 
-    /* } */
+/* } */
 
-    /* #myimggrr7 {
+/* #myimggrr7 {
         width: 100%; */
-        /* height: 44vmin; */
-        /* background-position: center;
+/* height: 44vmin; */
+/* background-position: center;
         background-repeat: no-repeat !important; */
 
-    /* } */
+/* } */
 
-    /* #myimggrr8 {
+/* #myimggrr8 {
         width: 100%; */
-        /* height: 44vmin; */
-        /* background-position: center;
+/* height: 44vmin; */
+/* background-position: center;
         background-repeat: no-repeat !important; */
 
-    /* }
+/* }
 } */
 
 @media screen and (min-width:1761px) {
-    
+
     .gridegallary {
         padding: 19vmin;
         grid-template-columns: repeat(auto-fit, minmax(600px, 5fr));
         width: 100%;
     }
+
     #myimggrr4 {
         margin: 0 auto;
     }
+
     #myimggrr5 {
         height: 63vmin;
         margin: 0 auto;
     }
+
     #myimggrr8 {
-        height:29rem;
-        margin:-449px auto;}
+        height: 29rem;
+        margin: -449px auto;
+    }
 
     #myimggrr7 {
         height: 28rem;
-        margin:-449px auto;
-   }
+        margin: -449px auto;
+    }
+
     #myimggrr3 {
         margin: 0 auto;
         /* height: auto; */
     }
-    .glritem{
+
+    .glritem {
         height: auto;
     }
-    
+
 }
 
 @media screen and (min-width:1000px) and (max-width:1030px) {
     #myimggrr7 {
         height: 41vmin;
-    
+
 
     }
 }
