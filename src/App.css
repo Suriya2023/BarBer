@@ -17,6 +17,22 @@
     height: 15px;
     background-color: var(--b);
 }
+.navbar-toggler{
+    display: block;
+}
+.btn-close{
+    display: block;
+
+}
+
+.means>button {
+
+display: block;
+}
+#fitbtn {
+    display: block;
+}
+
 
 :root {
     --primary-color: #333;

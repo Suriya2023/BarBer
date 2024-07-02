@@ -58,7 +58,7 @@ function NavBar() {
                       </a>
                       <ul className="dropdown-menu"  >
                         <li><a className="dropdown-item" href="#">About</a></li>
-                        <li><a className="dropdown-item" href="#">Blog</a></li>
+                        <li><a className="dropdown-item" href="/">Blog</a></li>
                         <li><a className="dropdown-item" href="#">Contact</a></li>
                         <li><a className="dropdown-item" href="#">Help Center</a></li>
                         <li><a className="dropdown-item" href="#">404 Error</a></li>

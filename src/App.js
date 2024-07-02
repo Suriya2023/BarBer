@@ -12,6 +12,7 @@ import BackGround from './Components/BackGround';
 import Trend from './Components/Image/Trend';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+// import Blog from './Components/Blog/Blog';
   
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Trend/>
             <Contact/>
             <Footer/>
+            {/* <Blog/> */}
     </div>
   );
 }

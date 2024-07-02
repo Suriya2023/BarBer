@@ -55,10 +55,23 @@ function Footer() {
 
                             <div type='none'>    <button className='submit'>Submit</button></div>
                         </div>
+
+
+
                     </div>
 
+
+                </div>
+                <div className="copy">
+                    <div className="borrderr">
+                        <div className='coppyright'>
+                            <h4>Copyright © 2024 Barber Design Theme. All Rights Reserved.</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
         </div>
     )
 }
