@@ -65,7 +65,7 @@
 
 .boxup {
     height: 80vmin;
-    background: url(./b2.png);
+    background: url(./Image/b2.png);
     background-size: cover;
     box-shadow: inset 25px 29px 64px 22px #080707;
     position: relative;
@@ -140,7 +140,7 @@
     background-position: top !important;
     background-repeat: no-repeat;
     width: 20vmin;
-    background: url(./s9.png);
+    background: url(./Image/s9.png);
     height: 11vmin;
 }
 .boxwidth2 {
@@ -152,7 +152,7 @@
     background-position:bottom !important;
 
     background-repeat: no-repeat !important;
-    background: url(./s10.png);
+    background: url(./Image/s10.png);
 
 }
 .boxwidth3 {
@@ -161,7 +161,7 @@
     background-size: cover !important;
     background-position:bottom !important;
     background-repeat: no-repeat !important;
-    background: url(./s11.png);
+    background: url(./Image/s11.png);
 
     height: 11vmin;
 }

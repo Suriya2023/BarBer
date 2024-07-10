@@ -18,100 +18,100 @@ export default function imgsid() {
                                
 
 
-                                <div class="card">
-                                    <div class="border"></div>
-                                    <div class="content">
-                                        <div class="logo">
-                                            <div class="logo1">
+                                <div className="card">
+                                    <div className="border"></div>
+                                    <div className="content">
+                                        <div className="logo">
+                                            <div className="logo1">
                                                 {/* <span id="logo-main">MEET OUR TEAMS
                                              </span> */}
                                             </div>
-                                            <div class="logo2">
+                                            <div className="logo2">
                                                 <span id="logo-second"></span>
                                             </div>
-                                            <span class="trail"></span>
+                                            <span className="trail"></span>
                                         </div>
-                                        <span class="logo-bottom-text"></span>
+                                        <span className="logo-bottom-text"></span>
                                     </div>
-                                    <span class="bottom-text , trail">JOHN JACOBS</span>
+                                    <span className="bottom-text , trail">JOHN JACOBS</span>
                                 </div>
                             </div>
 
                             <div className='mastercard'>
                                 <br />
-                                {/* <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                                        <div class="carousel-inner">
+                                {/* <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                                        <div className="carousel-inner">
 
 
-                                            <div class="carousel-item  active ">
-                                                <img  id='qwe' src={two} class="d-block " alt="..." />
+                                            <div className="carousel-item  active ">
+                                                <img  id='qwe' src={two} className="d-block " alt="..." />
                                             </div>
-                                            <div class="carousel-item ">
-                                                <img  id='qwe' src={tyr} class="d-block " alt="..." />
+                                            <div className="carousel-item ">
+                                                <img  id='qwe' src={tyr} className="d-block " alt="..." />
                                             </div>
 
-                                            <div class="carousel-item ">
-                                                <img  id='qwe' src={one} class="d-block w-100 " alt="..." />
+                                            <div className="carousel-item ">
+                                                <img  id='qwe' src={one} className="d-block w-100 " alt="..." />
                                             </div>
                                         </div>
 
                                         
                                     
                                     </div> */}
-                                <div class="card" id='imgcd2'>
-                                    <div class="border"></div>
-                                    <div class="content">
-                                        <div class="logo">
-                                            <div class="logo1">
+                                <div className="card" id='imgcd2'>
+                                    <div className="border"></div>
+                                    <div className="content">
+                                        <div className="logo">
+                                            <div className="logo1">
                                                 {/* <span id="logo-main">MEET OUR TEAMS
                                              </span> */}
                                             </div>
-                                            <div class="logo2">
+                                            <div className="logo2">
                                                 <span id="logo-second"></span>
                                             </div>
-                                            <span class="trail"></span>
+                                            <span className="trail"></span>
                                         </div>
-                                        <span class="logo-bottom-text"></span>
+                                        <span className="logo-bottom-text"></span>
                                     </div>
-                                    <span class="bottom-text , trail">HARRY GARD</span>
+                                    <span className="bottom-text , trail">HARRY GARD</span>
                                 </div>
                             </div>
 
                             <div className='mastercard'>
                                 <br />
-                                {/* <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
+                                {/* <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                                    <div className="carousel-inner">
 
 
-                                        <div class="carousel-item  active ">
-                                            <img id='qwe' src={two} class="d-block " alt="..." />
+                                        <div className="carousel-item  active ">
+                                            <img id='qwe' src={two} className="d-block " alt="..." />
                                         </div>
-                                        <div class="carousel-item ">
-                                            <img id='qwe' src={tyr} class="d-block " alt="..." />
+                                        <div className="carousel-item ">
+                                            <img id='qwe' src={tyr} className="d-block " alt="..." />
                                         </div>
-                                        <div class="carousel-item ">
-                                            <img id='qwe' src={one} class="d-block " alt="..." />
+                                        <div className="carousel-item ">
+                                            <img id='qwe' src={one} className="d-block " alt="..." />
                                         </div>
                                     </div>
 
                                 </div> */}
 
-                                <div class="card" id='imgcd1'>
-                                    <div class="border"></div>
-                                    <div class="content">
-                                        <div class="logo">
-                                            <div class="logo1">
+                                <div className="card" id='imgcd1'>
+                                    <div className="border"></div>
+                                    <div className="content">
+                                        <div className="logo">
+                                            <div className="logo1">
                                                 {/* <span id="logo-main">MEET OUR TEAMS
                                              </span> */}
                                             </div>
-                                            <div class="logo2">
+                                            <div className="logo2">
                                                 <span id="logo-second"></span>
                                             </div>
-                                            <span class="trail"></span>
+                                            <span className="trail"></span>
                                         </div>
-                                        <span class="logo-bottom-text"></span>
+                                        <span className="logo-bottom-text"></span>
                                     </div>
-                                    <span class="bottom-text , trail">PETER TAYLOR</span>
+                                    <span className="bottom-text , trail">PETER TAYLOR</span>
                                 </div>
                             </div>
 

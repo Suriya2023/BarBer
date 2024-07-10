@@ -1,0 +1,34 @@
+.mainflex {
+    width: 100%;
+    padding: 1vmin;
+    height: 80vmin;
+    /* background-color: aqua; */
+}
+
+.mainff {
+    gap: 2vmin;
+    box-sizing: border-box;
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+}
+
+.flexmaster {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+@media screen and (max-widh:991px) {
+
+    .mainflex>div {
+        flex-wrap: wrap;
+
+        flex-direction: column;
+    }
+#assdqd > div {
+
+        background-color: aqua;
+
+    }
+}

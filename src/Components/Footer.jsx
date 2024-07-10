@@ -14,9 +14,9 @@ function Footer() {
                             <div className='fthrrr' />
 
                             {/* <hr /> */}
-                            <div type='none' ><i class="fa-solid fa-location-dot" style={{ color: "#63E6BE" }}></i>&nbsp;1235, Air Mall, Busy Commercial Street, Big City, India - 4215</div>
-                            <div type='none' ><i class="fa-solid fa-envelope" style={{ color: " #63E6BE" }}></i> &nbsp;rajputsuraj@gmail.com</div>
-                            <div type='none' ><i class="fa-solid fa-phone" style={{ color: "#63E6BE" }}></i>&nbsp; +91 9510190352</div>
+                            <div type='none' ><i className="fa-solid fa-location-dot" style={{ color: "#63E6BE" }}></i>&nbsp;1235, Air Mall, Busy Commercial Street, Big City, India - 4215</div>
+                            <div type='none' ><i className="fa-solid fa-envelope" style={{ color: " #63E6BE" }}></i> &nbsp;rajputsuraj@gmail.com</div>
+                            <div type='none' ><i className="fa-solid fa-phone" style={{ color: "#63E6BE" }}></i>&nbsp; +91 9510190352</div>
                         </div>
 
 
@@ -30,7 +30,7 @@ function Footer() {
                             <div type='none' >Mon-Fri : 10:00 - 9:00</div>
                             <div type='none' >Saturday : 10:00 - 8:00</div>
                             <div type='none' >Sunday : Closed</div>
-                            <div type='none' ><i class="fa-brands fa-whatsapp"></i> &nbsp; <i class="fa-brands fa-facebook"></i>  &nbsp; <i class="fa-brands fa-instagram"></i> &nbsp; <i class="fa-brands fa-twitter"></i>  &nbsp; <i class="fa-brands fa-pinterest"></i></div>
+                            <div type='none' ><i className="fa-brands fa-whatsapp"></i> &nbsp; <i className="fa-brands fa-facebook"></i>  &nbsp; <i className="fa-brands fa-instagram"></i> &nbsp; <i className="fa-brands fa-twitter"></i>  &nbsp; <i className="fa-brands fa-pinterest"></i></div>
                         </div>
                     </div>
                     <div className="footermain3">
@@ -50,7 +50,7 @@ function Footer() {
                             <div className='fthhr' />
                             <div type='none' className='textareaft' ><input required id='fttext' type="text" placeholder='Email Address' /></div>
                             <div type='none' ><button>Subscribe</button></div>
-                            {/* <li type='none' ><i class="fa-solid fa-envelope"></i> </li> */}
+                            {/* <li type='none' ><i className="fa-solid fa-envelope"></i> </li> */}
                             <div className='fthrrr' />
 
                             <div type='none'>    <button className='submit'>Submit</button></div>

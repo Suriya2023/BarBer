@@ -46,3 +46,10 @@ display: block;
     --b: rgb(30, 28, 28);
     --w: white;
 }
+@media screen and (max-width:425px) {
+    
+
+.submit {
+    width: 27vmin;
+};
+}

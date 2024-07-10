@@ -2,6 +2,7 @@ import React from 'react'
 import './Nav.css'
 import logo from './Image/logo (1).png'
 // import bgimage from './Image/background.png'
+// import Blog from './Blog'
 function NavBar() {
   return (
     <div>
@@ -87,35 +88,15 @@ function NavBar() {
 
 
 
-                    <li className="nav-item dropdown">
-                      <a id='lgf' className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Blog
-                      </a>
-                      <ul className="dropdown-menu"  >
-                        <li><a className="dropdown-item" href="#">About</a></li>
-                        <li><a className="dropdown-item" href="#">Blog</a></li>
-                        <li><a className="dropdown-item" href="#">Contact</a></li>
-                        <li><a className="dropdown-item" href="#">Help Center</a></li>
-                        <li><a className="dropdown-item" href="#">404 Error</a></li>
-                        <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
-                      </ul>
+                    <li className="nav-item">
+                      <a id='lgf' href='./Blog.jsx' target='_blank' className="nav-link " aria-disabled="true">Blog</a>
                     </li>
 
-                    <li className="nav-item dropdown">
-                      <a id='lgf' className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                      </a>
-                      <ul className="dropdown-menu"  >
-                        <li><a className="dropdown-item" href="#">About</a></li>
-                        <li><a className="dropdown-item" href="#">Blog</a></li>
-                        <li><a className="dropdown-item" href="#">Contact</a></li>
-                        <li><a className="dropdown-item" href="#">Help Center</a></li>
-                        <li><a className="dropdown-item" href="#">404 Error</a></li>
-                        <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
-                      </ul>
+                    <li className="nav-item">
+                      <a id='lgf' href='./Blog.jsx' target='_blank' className="nav-link " aria-disabled="true">Services</a>
                     </li>
                     <li className="nav-item">
-                      <a id='lgf' className="nav-link " aria-disabled="true">Portfolio</a>
+                      <a id='lgf' href='./Blog.jsx' target='_blank' className="nav-link " aria-disabled="true">Portfolio</a>
                     </li>
 
                     <li className="nav-item">
@@ -161,7 +142,7 @@ function NavBar() {
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                   <div className="offcanvas-header">
                     {/* <img src={logo} alt="Logo"/> */}
                     <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img id='uuu' src="https://th.bing.com/th/id/OIP.FqvZ6Kyu0LWTkLYkWJ8t3gHaHc?rs=1&pid=ImgDetMain" alt="" /></button>
