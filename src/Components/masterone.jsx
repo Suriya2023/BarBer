@@ -6,10 +6,33 @@ export default function masterone() {
                         <div className="mainflex">
                                 <div className="mainff">
                                         <div className="flexmaster">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis illo dolores sapiente suscipit quam iure, ratione sit molestias minus deserunt harum consequatur esse quae nulla eaque asperiores fugiat provident.
+
                                         </div>
-                                        <div className="flexmaster">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus illo eos dolorem ut ipsa error dicta quia magni fuga, a facilis exercitationem id iusto officia vitae suscipit praesentium cumque non!
+                                        <div className="flexmaster2">
+                                                <h3>Why Choose Us</h3>
+                                                <h2>COMPLETE RELAXATION AT OUR
+                                                        BARBERSHOP.</h2>
+                                                <div>
+
+                                                        Grooming services include haircuts, beard trims, shaves, and hand and foot care; wellness services include infrared sauna, a drip spa, and cryotherapy, and performance injections.
+                                                </div>
+
+                                                <div className="arrow">
+                                                        <h4><span class="material-symbols-outlined">
+                                                                prompt_suggestion
+                                                        </span> High-quality services and care</h4>
+                                                        <h4> <span class="material-symbols-outlined">
+                                                                prompt_suggestion
+                                                        </span> Men hair coloring & refreshing hair wash</h4>
+                                                        <h4> <span class="material-symbols-outlined">
+                                                                prompt_suggestion
+                                                        </span> Relaxing head & shoulders massage</h4>
+                                                </div>
+                                                <button>
+                                                        Book an Appoinment <span class="material-symbols-outlined">
+                                                                arrow_outward
+                                                        </span>
+                                                </button>
                                         </div>
                                 </div>
                         </div>

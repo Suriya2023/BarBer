@@ -33,10 +33,10 @@ function App() {
             <BackGround/>
             <Trend/>
             <Contact/>
-            <Footer/> */}
-            {/* <Blog /> */}
-             {/* <BlogTrend/> */}
-             {/* <SBlog/> */}
+            <Footer/>
+            <Blog />
+             <BlogTrend/>
+             <SBlog/> */}
              <NavSection/>
              <Masterone/>
     </div>

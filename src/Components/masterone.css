@@ -1,34 +1,99 @@
 .mainflex {
     width: 100%;
-    padding: 1vmin;
-    height: 80vmin;
+    padding: 1px 12vmin;
+    height: auto;
     /* background-color: aqua; */
+}
+
+#assdqd {
+    background-color: var(--b);
 }
 
 .mainff {
     gap: 2vmin;
     box-sizing: border-box;
-    height: 100%;
-    border: 1px solid;
+    height: 80vmin;
+    /* border: 1px solid; */
     display: flex;
 }
 
 .flexmaster {
+    background: url(./Image/svc.png);
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto !important;
+    position: relative;
+}
+
+.flexmaster2 {
+    color: var(--w);
     width: 100%;
     height: 100%;
     border: 1px solid red;
+    margin: 0 auto !important;
+    position: relative;
 }
 
-@media screen and (max-widh:991px) {
+/* \end{code} */
+.flexmaster2 > h3{
+    color: var(--a);
+    font-family: var(--Satisfy);
+}
+@media screen and (max-width:1230px) and (min-width:997px) {
 
-    .mainflex>div {
-        flex-wrap: wrap;
+    .flexmaster {
+        background-size: contain !important;
+    }
+}
+@media screen and (max-width:550px) {
+    .mainff {
+        height: auto;
+    }
 
+    .flexmaster {
+        margin: 0 2vmin !important;
+    }
+
+    /* .flexmaster2 {
+        max-height: 87vmin;
+        min-height: 98vi;
+    } */
+
+    .flexmaster {
+        max-height: 87vmin;
+        min-height: 98vi;
+    }
+
+    .mainff {
         flex-direction: column;
     }
-#assdqd > div {
 
-        background-color: aqua;
+}
+/* @media screen and (min-width:990px) and (max-width:1161px) {
+    .mainff > div {
 
+    }
+    
+} */
+
+@media screen and (max-width:991px) {
+    .mainflex {
+        padding: 1px 3vmin;
+
+    }
+}
+
+@media screen and (min-width:992px) {
+    .mainflex>div {
+        height: 70vmin;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .mainff > div {
+        background-size: cover !important;
     }
 }
