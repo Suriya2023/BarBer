@@ -17,6 +17,7 @@ import './App.css';
 // import SBlog from './Components/SBlog';
 import NavSection from './Components/navSvc'
 import Masterone from './Components/masterone';
+import Aboutcard from'./Components/aboutcard';
   
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
              <SBlog/> */}
              <NavSection/>
              <Masterone/>
+             <Aboutcard/>
     </div>
   );
 }
