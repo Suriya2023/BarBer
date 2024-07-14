@@ -214,7 +214,7 @@ export default function Blog() {
                 </div>
               </nav>
             </header>
-            
+
             <section className='mainblogee' id='nexthdblog'>
               <h1>What We Do</h1><br /><h3>Home - <span className='blogee'>Service</span></h3>
             </section>
@@ -230,7 +230,7 @@ export default function Blog() {
         </div>
 
       </div>
-{/* footer
+      {/* footer
       <Footer/> */}
     </div>
   )

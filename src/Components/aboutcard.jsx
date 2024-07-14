@@ -1,11 +1,10 @@
 import React from 'react'
 import './aboutcard.css'
-import './masterone.css'
+import Footer from './Footer'
 
 import So1 from './Image/s101 (1).png'
 import So2 from './Image/s101 (2).png'
 import So3 from './Image/s101 (3).png'
-
 
 
 import Ab1 from './Image/ab1 (1).png'
@@ -82,6 +81,32 @@ function aboutcard() {
                 </div>
             </div>
 
+            <div className="containnner">
+                <div className="imaaage-card">
+                    <div className="mapouter"><div className="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=636+5th+Ave%2C+New+York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.analarmclock.com"></a><br /><a href="https://www.onclock.net"></a><br /><a href="https://www.ongooglemaps.com">google satellite maps zoom</a></div></div>
+                </div>
+                <div className="forrrm-card">
+                    <h3>Our Booking</h3>
+                    <h2>Book an Appointment</h2>
+                    <p>Lorem ipsum dolor sit amet, adipisicing elit, sed doeiusmod tempor incididunt ut labore.</p><br />
+                    <div >
+                        <input type="text" className='alalalalala' placeholder="Name" />&nbsp;&nbsp;&nbsp;
+                        <input type="text" className='alalalalala' placeholder="Last Name" /><br />
+                        <br />
+                        <input type="text" className='alalalalala' placeholder="Email" />&nbsp;&nbsp;&nbsp;
+                        <input type="tel" className='alalalalala' placeholder="Phone" />
+                        <br /><br />
+                        <textarea id='mytextarea' name="Appointment Preference" placeholder='Appointment Preference' ></textarea><br />
+                        <br />
+                        <button className='booknowbtn'>Book Now</button>
+
+
+                    </div>
+                </div>
+            </div>
+            
+
+            <Footer/>
 
         </div>
     )
