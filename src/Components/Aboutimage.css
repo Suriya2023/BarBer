@@ -121,11 +121,10 @@
 
 @media screen and (max-width:450px) {
 
-    .firstimg2 {
-        height: 85%;
-
+        .firstimg2 {
+        height: 45vmin;
         text-align: center;
-
+        margin-bottom: -12vmin;
     }
 }
 
