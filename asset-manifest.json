@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BarBer/static/css/main.0ee874fc.css",
-    "main.js": "/BarBer/static/js/main.7be62fb2.js",
+    "main.js": "/BarBer/static/js/main.e7ebd400.js",
     "static/js/453.2d973391.chunk.js": "/BarBer/static/js/453.2d973391.chunk.js",
     "static/media/Background.png": "/BarBer/static/media/Background.cf6905afcc695b0eecd3.png",
     "static/media/Blog.png": "/BarBer/static/media/Blog.c88842d0f2b0a454d223.png",
@@ -56,11 +56,11 @@
     "static/media/c3.jpg": "/BarBer/static/media/c3.430b8e0a5ab237a94925.jpg",
     "index.html": "/BarBer/index.html",
     "main.0ee874fc.css.map": "/BarBer/static/css/main.0ee874fc.css.map",
-    "main.7be62fb2.js.map": "/BarBer/static/js/main.7be62fb2.js.map",
+    "main.e7ebd400.js.map": "/BarBer/static/js/main.e7ebd400.js.map",
     "453.2d973391.chunk.js.map": "/BarBer/static/js/453.2d973391.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ee874fc.css",
-    "static/js/main.7be62fb2.js"
+    "static/js/main.e7ebd400.js"
   ]
 }
