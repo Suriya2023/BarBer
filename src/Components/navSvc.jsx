@@ -3,6 +3,9 @@ import './Blog.css'
 import './navSvc.css'
 import logo from './Image/logo (1).png'
 // import Footer from './Footer'
+import Masterone from './masterone';
+import Aboutcard from './aboutcard';
+import { Link } from 'react-router-dom';
 
 export default function Blog() {
   return (
@@ -14,7 +17,7 @@ export default function Blog() {
             <div className="txtidd">
               <div>
                 <i className="fa-solid fa-envelope"></i> &nbsp; &nbsp;
-                abcd123@gmail.com
+                suraj123@gmail.com
                 &nbsp;&nbsp;&nbsp;|  &nbsp; &nbsp;
                 <i className="fa-solid fa-phone"></i> &nbsp; &nbsp;
                 +91 95510190352
@@ -51,16 +54,16 @@ export default function Blog() {
 
                     <ul className={"nav justify-content-center "} id='mcone' >
                       <li className="nav-item dropdown">
-                        <a id='lgff' className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                        <Link id='lgff' className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                           Home
-                        </a>
+                        </Link>
                         <ul className="dropdown-menu"  >
-                          <li><a className="dropdown-item" href="#">About</a></li>
-                          <li><a className="dropdown-item" href="/">Blog</a></li>
-                          <li><a className="dropdown-item" href="#">Contact</a></li>
-                          <li><a className="dropdown-item" href="#">Help Center</a></li>
-                          <li><a className="dropdown-item" href="#">404 Error</a></li>
-                          <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
+                          <li><Link className="dropdown-item" to="/">About</Link></li>
+                          <li><Link className="dropdown-item" to="/">Blog</Link></li>
+                          <li><Link className="dropdown-item" to="/">Contact</Link></li>
+                          <li><Link className="dropdown-item" to="/">Help Center</Link></li>
+                          <li><Link className="dropdown-item" to="/">404 Error</Link></li>
+                          <li><Link className="dropdown-item" to="/">Terms & Conditions</Link></li>
                         </ul>
                       </li>
 
@@ -68,16 +71,16 @@ export default function Blog() {
 
 
                       <li className="nav-item dropdown">
-                        <a id='lgff' className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <Link id='lgff' className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Pages
-                        </a>
+                        </Link>
                         <ul className="dropdown-menu"  >
-                          <li><a className="dropdown-item" href="#">About</a></li>
-                          <li><a className="dropdown-item" href="#">Blog</a></li>
-                          <li><a className="dropdown-item" href="#">Contact</a></li>
-                          <li><a className="dropdown-item" href="#">Help Center</a></li>
-                          <li><a className="dropdown-item" href="#">404 Error</a></li>
-                          <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
+                          <li><Link className="dropdown-item" to="/">About</Link></li>
+                          <li><Link className="dropdown-item" to="/">Blog</Link></li>
+                          <li><Link className="dropdown-item" to="/">Contact</Link></li>
+                          <li><Link className="dropdown-item" to="/">Help Center</Link></li>
+                          <li><Link className="dropdown-item" to="/">404 Error</Link></li>
+                          <li><Link className="dropdown-item" to="/">Terms & Conditions</Link></li>
                         </ul>
                       </li>
 
@@ -86,18 +89,18 @@ export default function Blog() {
 
 
                       <li className="nav-item">
-                        <a id='lgff' href='./App.js' target='_blank' className="nav-link " aria-disabled="true">Blog</a>
+                        <Link id='lgff' to='/' className="nav-link " aria-disabled="true">Blog</Link>
                       </li>
 
                       <li className="nav-item">
-                        <a id='lgff' href='./Blog.jsx' target='_blank' className="nav-link " aria-disabled="true">Services</a>
+                        <Link id='lgff' to='/' className="nav-link " aria-disabled="true">Services</Link>
                       </li>
                       <li className="nav-item">
-                        <a id='lgff' href='./Blog.jsx' target='_blank' className="nav-link " aria-disabled="true">Portfolio</a>
+                        <Link id='lgff' to='/' className="nav-link " aria-disabled="true">Portfolio</Link>
                       </li>
 
                       <li className="nav-item">
-                        <a id='lgff' className="nav-link " aria-disabled="true">Contact</a>
+                        <Link id='lgff' to='/contact' className="nav-link " aria-disabled="true">Contact</Link>
                       </li>
                     </ul>
                     <form className="d-flex" role="search">
@@ -134,73 +137,69 @@ export default function Blog() {
 
 
 
-
             {/* second nav */}
 
-            <header className="largeNavv">
+            <header className="largeNav">
               <nav className="navbar ">
                 <div className="container-fluid">
 
-                  <a className="navbar-brand" href="#">
+                  <a className="navbar-brand" href="/">
                     <img src={logo} alt="Logo" />
                   </a>
-                  <button className="navbar-togglerr" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                   </button>
                   <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div className="offcanvas-header">
                       {/* <img src={logo} alt="Logo"/> */}
-                      <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img id='uuuu' src="https://th.bing.com/th/id/OIP.FqvZ6Kyu0LWTkLYkWJ8t3gHaHc?rs=1&pid=ImgDetMain" alt="" /></button>
+                      <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img id='uuu' src="https://th.bing.com/th/id/OIP.FqvZ6Kyu0LWTkLYkWJ8t3gHaHc?rs=1&pid=ImgDetMain" alt="" /></button>
                     </div>
                     <hr className='hrline' />
 
-                    <div className="offcanvas-body" >
-                      <div id='dopcenter'>
-                        <img src={logo} alt="Logo" id='imgcenter' />
-                      </div>
+                    <div className="offcanvas-body">
+                      <img src={logo} alt="Logo" id='imgcenter' />
                       <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li className="nav-item" id='myhome'>
-                          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
+                          <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
                             Home
                           </a>
                           <ul className="dropdown-menu"  >
-                            <li><a className="dropdown-item" href="#">About</a></li>
-                            <li><a className="dropdown-item" href="#">Blog</a></li>
-                            <li><a className="dropdown-item" href="#">Contact</a></li>
-                            <li><a className="dropdown-item" href="#">Help Center</a></li>
-                            <li><a className="dropdown-item" href="#">404 Error</a></li>
-                            <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
+                            <li><a className="dropdown-item" href="/">About</a></li>
+                            <li><a className="dropdown-item" href="/">Blog</a></li>
+                            <li><a className="dropdown-item" href="/">Contact</a></li>
+                            <li><a className="dropdown-item" href="/">Help Center</a></li>
+                            <li><a className="dropdown-item" href="/">404 Error</a></li>
+                            <li><a className="dropdown-item" href="/">Terms & Conditions</a></li>
                           </ul>
 
                         </li>
                         <li className="nav-item" id='myhome'>
-                          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
+                          <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false" id='myhome'>
                             Pages
                           </a>
                           <ul className="dropdown-menu"  >
-                            <li><a className="dropdown-item" href="#">About</a></li>
-                            <li><a className="dropdown-item" href="#">Blog</a></li>
-                            <li><a className="dropdown-item" href="#">Contact</a></li>
-                            <li><a className="dropdown-item" href="#">Help Center</a></li>
-                            <li><a className="dropdown-item" href="#">404 Error</a></li>
-                            <li><a className="dropdown-item" href="#">Terms & Conditions</a></li>
+                            <li><a className="dropdown-item" href="/">About</a></li>
+                            <li><a className="dropdown-item" href="/">Blog</a></li>
+                            <li><a className="dropdown-item" href="/">Contact</a></li>
+                            <li><a className="dropdown-item" href="/">Help Center</a></li>
+                            <li><a className="dropdown-item" href="/">404 Error</a></li>
+                            <li><a className="dropdown-item" href="/">Terms & Conditions</a></li>
                           </ul>
 
                         </li>
                         <li className="nav-item">
-                          <a id='lgf' href='/App' className="nav-link " aria-disabled="true">Blolg</a>
+                          <Link to="/blog" id='lgf' className="nav-link " aria-disabled="true">Blog</Link>
                         </li>
                         <li className="nav-item">
-                          <a id='lgf' className="nav-link " aria-disabled="true">Service</a>
+                          <Link to="/Section" id='lgf' className="nav-link " aria-disabled="true">Services</Link>
                         </li>
-
                         <li className="nav-item ">
                           <li className="nav-item">
-                            <a id='lgf' className="nav-link " aria-disabled="true">Portfolio</a>
+                            <Link to="/" id='lgf' className="nav-link " aria-disabled="true">Portfolio</Link>
                           </li>
 
                           <li className="nav-item">
-                            <a id='lgf' className="nav-link " aria-disabled="true">Contact</a>
+                            <Link to="/contact" id='lgf' className="nav-link " aria-disabled="true">Contact</Link>
                           </li>
 
                         </li>
@@ -214,6 +213,7 @@ export default function Blog() {
                 </div>
               </nav>
             </header>
+            {/* End */}
 
             <section className='mainblogee' id='nexthdblog'>
               <h1>What We Do</h1><br /><h3>Home - <span className='blogee'>Service</span></h3>
@@ -230,6 +230,8 @@ export default function Blog() {
         </div>
 
       </div>
+      <Masterone />
+      <Aboutcard />
       {/* footer
       <Footer/> */}
     </div>
